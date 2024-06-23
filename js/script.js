@@ -17,15 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     
-    // Check if the user is logged in and redirect if not
-    function checkLogin() {
-        if (!localStorage.getItem('loggedIn')) {
-            window.location.href = 'register.html';
-        }
-    }
+    
 
-    // Call checkLogin on page load
-    checkLogin();
     
     // Check if the element with ID 'register' exists
     const submit = document.getElementById('register');

@@ -2,7 +2,7 @@
 function logout() {
     localStorage.removeItem('loggedIn');
     localStorage.removeItem('userId');
-    window.location.href = 'signUp.html';
+    window.location.href = 'register.html';
 }
 
 // Add logout function to global scope so it can be called from HTML
